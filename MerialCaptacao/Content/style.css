@@ -1,0 +1,129 @@
+/* --- Select Cor --- */
+*::selection { background:#FFFFFF; color:#000000; }
+*::-moz-selection  { background:#FFFFFF; color:#000000; }
+*::-webkit-selection { background:#FFFFFF; color:#000000; }
+
+body { color:#000000; font:normal 14px Verdana, Arial, Tahoma; min-width:300px}
+section { color:#ffffff; width:320px;margin:0 auto;}
+
+a {font-size:12px; padding:5px;cursor:pointer;}
+input {color:#2ea088;border:1px solid #A5A1A1;}
+input[type=button],input[type=submit] {color:#000000;cursor:pointer;}
+
+.alert {display: none;}
+.alert p {text-align: center;font-size: 18px;color: #2ea088;border: 3px solid;width: 220px;margin: 0 auto;position: relative;bottom: 160px;background-color: #fff;padding: 10px 0px;}
+.alert p.exit {border:0;display:inline;}
+.alert p.exit input {background-color:#99cccc;width: 25px;height: 25px;display: block; position:relative;float:right;top:-89px;right:15px;}
+
+/* Header */
+main header {background-image: url('img/merial-logo.png');width:118px;height:100px;margin:35px auto;}
+
+/* Home */
+#login { width:250px;}
+#login .content p {color:#ffffff;}
+#login .content .user-Login p {background: #2ea088;padding:10px;text-align:center; border-radius:3px 3px 0 0;font-size:14px;}
+#login .content .user-Login div {background:#99cccc;padding:15px 30px; height:160px;border-radius:0 0 3px 3px;}
+#login .content .user-Login div input:nth-child(-n + 3) {width:178px;padding:5px;margin:5px 0;}
+#login .content .user-Login div input[type=submit] {width:60px;margin:10px 65px 0;height:25px;}
+
+
+/* HomeLogada */
+#search .welcome {position: relative;top: -160px;}
+#search .welcome p {font-size:12px; padding-right:25px;position:absolute;right:0;line-height:20px;}
+#search .welcome input {width:20px;height:20px;border:1px solid #000000; background-color:#ffffff;border-radius:60%;float:right;cursor:pointer;}
+
+#search .content input[type=text] {width: 230px;margin: 0 30px;line-height: 30px;padding: 0 5px; text-transform:uppercase;}
+#search .content input[type=submit] {display: block;width: 150px;margin: 20px 85px;padding: 5px 10px;border-radius: 5px;}
+#search .content hr {height: 1px;background: #a5a1a1;width: 90%;margin: 20px auto;}
+
+#search .content ul.list-title {width: 320px;text-align: center;background-color: #c6c6c6;position:absolute;margin:0 auto;right:0;left:0;}
+#search .content ul.list-title li {font-size: 14px;display: inline-block;color: #646464;width:94px;padding:5px 0;}
+#search .content ul.list-title li:nth-child(2n+2) {padding:0;width:auto;}
+
+#search .content ul.list-item {width:320px; text-align:center;position:relative;top:35px;margin:10px 0; }
+#search .content ul.list-item li {font-size:12px; display:inline-block; text-align:left;width:94px;padding:0 5px 0 0}
+#search .content ul.list-item li input {width: 90px;font-size: 12px;margin: 0 auto;height: 25px;border-radius:5px;}
+#search .content ul.list-item li:nth-child(2n),
+#search .content ul.list-item li:nth-child(2n + 3) {padding: 0 5px; text-align:center;vertical-align: super;}
+
+#search .content ul.list-item.base-out {text-align:center; display:none;top:0;}
+#search .content ul.list-item.base-out li {width:100%;text-align:center; margin:5px 0}
+#search .content ul.list-item.base-out li input {padding:0;}
+
+
+/* Cadastrar/Atualizar */
+#cadastrar-atualizar .welcome {position: relative;top: -160px;}
+#cadastrar-atualizar .welcome p {font-size:12px; padding-right:25px;position:absolute;right:0;line-height:20px;}
+#cadastrar-atualizar .welcome input {width:20px;height:20px;border:1px solid #000000; background-color:#ffffff;border-radius:60%;float:right;cursor:pointer;}
+
+#cadastrar-atualizar .content h1 {text-align: center;font-size:15px; width:auto; color:#00AC9E;font-family:Arial, Helvetica, sans-serif;}
+#cadastrar-atualizar .content p {text-align: center;color: #8A8989;font-family:Arial, Helvetica, sans-serif;font-size:12px;}
+#cadastrar-atualizar .content input[type=text] {width: 230px;margin: 0 30px;line-height: 30px;padding: 0 5px; text-transform:uppercase;}
+#cadastrar-atualizar .content input[type=submit] {display: block;width: 150px;margin: 20px 85px;padding: 5px 10px;border-radius: 5px;}
+
+#cadastrar-atualizar .content ul:nth-child(2n+1) {padding:0;width:auto;background-color: #E0DBDB;}
+ 
+#cadastrar-atualizar .content ul.list-item {width:320px; text-align:center;position:relative;top:35px;right:10px;margin:10px 0; }
+#cadastrar-atualizar .content ul.list-item li {font-size:12px; display:inline-block; text-align:left;width:94px;padding:0 5px 0 0}
+#cadastrar-atualizar .content ul.list-item li input {width: 90px;font-size: 12px;margin: 0 auto;height: 25px;border-radius:5px;}
+#cadastrar-atualizar .content ul.list-item li:nth-child(2n),
+#cadastrar-atualizar .content ul.list-item li:nth-child(2n + 3) {padding: 0 5px; text-align:center;vertical-align: super;}
+
+
+/* QUESTIONÁRIO PERFIL */
+#questionario-1 .welcome {position: relative;top: -160px;}
+#questionario-1 .welcome p {font-size:12px; padding-right:25px;position:absolute;right:0;line-height:20px;}
+#questionario-1 .welcome input {width:20px;height:20px;border:1px solid #000000; background-color:#ffffff;border-radius:60%;float:right;cursor:pointer;}
+ 
+#questionario-1 .content h1 {text-align: center;font-size:15px; width:auto; color:#00AC9E;font-family:Arial, Helvetica, sans-serif;}
+#questionario-1 .content p {text-align: center;color: #8A8989;font-family:Arial, Helvetica, sans-serif;font-size:12px;}
+#questionario-1 .content input[type=text] {width: 230px;margin: 0 30px;line-height: 30px;padding: 0 5px; text-transform:uppercase;}
+#questionario-1 .content input[type=submit] {display: block;width: 150px;margin: 20px 85px;padding: 5px 10px;border-radius: 5px;}
+
+#questionario-1 .content ul.list-item {margin:10px 0; }
+#questionario-1 .content ul.list-item li {font-size:12px; text-align:left;}
+#questionario-1 .content ul.list-item li input {width: 90px;font-size: 12px;margin: 0 auto;height: 25px;border-radius:5px;}
+#questionario-1 .content ul.list-item li:nth-child(2n),
+#questionario-1 .content ul.list-item li:nth-child(2n + 3) {padding: 0 5px; text-align:center;vertical-align: super;}
+
+
+#questionario-2 .welcome {position: relative;top: -160px;}
+#questionario-2 .welcome p {font-size:12px; padding-right:25px;position:absolute;right:0;line-height:20px;}
+#questionario-2 .welcome input {width:20px;height:20px;border:1px solid #000000; background-color:#ffffff;border-radius:60%;float:right;cursor:pointer;}
+              
+#questionario-2 .content h1 {text-align: center;font-size:15px; width:auto; color:#00AC9E;font-family:Arial, Helvetica, sans-serif;}
+#questionario-2 .content p {text-align: center;color: #8A8989;font-family:Arial, Helvetica, sans-serif;font-size:12px;}
+#questionario-2 .content input[type=text] {width: 230px;margin: 0 30px;line-height: 30px;padding: 0 5px; text-transform:uppercase;}
+#questionario-2 .content input[type=submit] {display: block;width: 150px;margin: 20px 85px;padding: 5px 10px;border-radius: 5px;}
+              
+#questionario-2 .content ul.list-item {margin:10px 0; }
+#questionario-2 .content ul.list-item li {font-size:12px; text-align:left;}
+#questionario-2 .content ul.list-item li input {width: 90px;font-size: 12px;margin: 0 auto;height: 25px;border-radius:5px;}
+#questionario-2 .content ul.list-item li:nth-child(2n),
+#questionario-2 .content ul.list-item li:nth-child(2n + 3) {padding: 0 5px; text-align:center;vertical-align: super;}
+
+/* Footer */
+main footer {  }
+
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+}
+
+
+
+@media only screen and (max-width: 767px) {
+
+}
+
+
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+}
+
+
+
+@media only screen and (max-width: 479px) {
+
+}

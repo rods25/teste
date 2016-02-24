@@ -1,0 +1,74 @@
+﻿
+
+@{
+    ViewBag.Title = "QUESTIONÁRIO";
+}
+
+<section id="questionario-1">
+    <div class="welcome">
+        <p>Olá Promotor!</p>
+        <input type="button" value="X" />
+    </div>
+    <div class="content">
+        <h1>QUESTIONÁRIO DE PERFIL</h1>
+        <ul class="list-item">
+            <li>ALÉM DA MERIAL, QUAIS SÃO SEUS OUTROS 2 (DOIS) PRINCIPAIS PARCEIROS EM SAÚDE ANIMAL?</li>
+            <li>
+                <input type="radio" name="principaisParceiros" />Vallée
+                <input type="radio" name="principaisParceiros" />Ouro Fino
+                <input type="radio" name="principaisParceiros" />Bayer
+                <input type="radio" name="principaisParceiros" />MSD
+                <input type="radio" name="principaisParceiros" />Zoets
+                <input type="radio" name="principaisParceiros" />Hertape
+                <input type="radio" name="principaisParceiros" />Ceva
+                <input type="radio" name="principaisParceiros" />Outros
+            </li>
+        </ul>
+        <ul class="list-item">
+            <li>DEFINA EM UMA OU DUAS PALAVRAS O QUE TIRA O SONO DO SEU NEGÓCIO.</li>
+            <li><input type="text" name="sono-negocio" /></li>
+        </ul>
+        <ul class="list-item">
+            <li>A SUA EMPRESA POSSUI PLANEJAMENTO ESTRATÉGICO DE MÉDIO OU LONGO PRAZO? (3 A 5 ANOS)?</li>
+            <li>
+                <input type="radio" name="principaisParceiros" />Sim
+                <input type="radio" name="principaisParceiros" />Não
+            </li>
+        </ul>
+        <button name="avancar" value="">AVANÇAR >></button>
+    </div>
+</section>
+
+<section id="questionario-2">
+    <div class="welcome">
+        <p>Olá Promotor!</p>
+        <input type="button" value="X" />
+    </div>
+    <div class="content">
+        <h1>QUESTIONÁRIO DE PERFIL</h1>
+        <ul class="list-item">
+            <li>QUAIS OS DOIS PRINCIPAIS DESAFIOS DO SEU NEGÓCIO EM 2016?</li>
+            <li><input type="text" name="desafio-negocio" placeholder="Defina em poucas palavras:"/></li>
+        </ul>
+        <ul class="list-item">
+            <li>QUAL A PROJEÇÃO DE CRESCIMENTO EM SAÚDE ANIMAL PREVISTO PARA 2016 NO SEU NEGÓCIO?</li>
+            <li>
+                <select>
+                    <option>Selecione</option>
+                    <option>A</option>
+                    <option>B</option>
+                    <option>C</option>
+                    <option>D</option>
+                    <option>E</option>
+                    <option>F</option>
+                </select>
+            </li>
+        </ul>
+        <ul class="list-item">
+            <li>RESUMA EM UMA ÚNICA PALAVRA O QUE VOCÊ ESPERA DA PARCERIA COM A MERIAL EM 2016.</li>
+            <li><input type="text" name="parceria-merial" /></li>
+        </ul>
+        <input type="submit" value="CONCLUIR" name="enviar-questionario"/>
+    </div>
+</section>
+

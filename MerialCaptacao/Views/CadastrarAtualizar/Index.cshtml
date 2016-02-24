@@ -1,0 +1,123 @@
+﻿
+
+@{
+    ViewBag.Title = "CADASTRO/ATUALIZAÇÃO";
+}
+
+<section id="cadastrar-atualizar">
+    <div class="welcome">
+        <p>Olá Promotor!</p>
+        <input type="button" value="X" />
+    </div>
+    <div class="content">
+        <h1>CADASTRO/ATUALIZAÇÃO DE CLIENTE</h1>
+        <p>Preencha ou complete abaixo as informações para realizar o check-in do cliente:</p>
+
+        <ul class="list-item">
+            <li>EMPRESA:</li>
+            <li>
+                <select>
+                    <option>Selecione</option>
+                    <option>A</option>
+                    <option>B</option>
+                    <option>C</option>
+                    <option>D</option>
+                    <option>E</option>
+                    <option>F</option>
+                </select>
+            </li>
+        </ul>
+
+        <ul class="list-item">
+            <li>RESPONSÁVEL:
+                <input type="text" name="responsavel" />
+            </li>
+        </ul>
+
+        <ul class="list-item">
+            <li>CARGO:
+                <input type="text" name="complemento" />
+            </li>
+            <li>E-MAIL:
+                <input type="text" name="complemento" />
+            </li>
+        </ul>
+
+        <ul class="list-item">
+            <li>DATA DE NASCIMENTO:</li>
+            <li>
+                <select>
+                    <option>Selecione</option>
+                    <option>A</option>
+                    <option>B</option>
+                    <option>C</option>
+                    <option>D</option>
+                    <option>E</option>
+                    <option>F</option>
+                </select>
+            </li>
+        </ul>
+
+        <ul class="list-item">
+            <li>TIPO DE NEGÓCIO:
+                <input type="checkbox" name="tipoNegocio" value="Revenda" />
+                <input type="checkbox" name="tipoNegocio" value="Corporativa" />
+            </li>
+        </ul>
+
+        <ul class="list-item">
+            <li>CEP: 
+                <input type="text" name="responsavel" />
+            </li>
+            <li>
+                <button name="buscar-cep" >BUSCAR</button>
+            </li>
+        </ul>
+
+        <ul class="list-item">
+            <li>ENDEREÇO: 
+                <input type="text" name="endereco" />
+            </li>
+        </ul>
+
+
+        <ul class="list-item">
+            <li>UF: 
+                <select>
+                    <option>Selecione</option>
+                    <option>A</option>
+                    <option>B</option>
+                    <option>C</option>
+                    <option>D</option>
+                    <option>E</option>
+                    <option>F</option>
+                </select>
+            </li>
+            <li>
+                CIDADE:
+                <select>
+                    <option>Selecione</option>
+                    <option>A</option>
+                    <option>B</option>
+                    <option>C</option>
+                    <option>D</option>
+                    <option>E</option>
+                    <option>F</option>
+                </select>
+            </li>
+        </ul>
+        <ul class="list-item">
+            <li>
+                Nº:
+                <input type="text" name="numero-endereco" />
+            </li>
+            <li>
+                COMPLEMENTO:
+                <input type="text" name="complemento" />
+            </li>
+        </ul>
+        <input type="submit" value="ENVIAR" />
+        <input type="submit" value="ATUALIZAR" />
+        <input type="submit" value="CHECK-OUT" />
+    </div>
+</section>
